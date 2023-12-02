@@ -136,6 +136,9 @@ li{
     
 
 }
+.ten{
+    font-size: 28px;margin:10px 0 3px 0;text-align:center 
+}
 h1{
     margin-left:5px;
     font-size:2em;
@@ -161,20 +164,22 @@ h1{
         text-overflow: ellipsis;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
     .mainbox{
-    margin:0;
-    width: 100%;
+        margin:0;
+        width: 100%;
     }
     h1{
         font-size:1.5em;
     }
     .avatabox{
         width:75%;
-        
     }
-    .box1{
-        height:15%
+    .mainbox{
+        height:100vh;
+    }
+    .ten{
+        font-size: 20px
     }
 }
 .ph{
