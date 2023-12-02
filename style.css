@@ -183,6 +183,13 @@ h1{
     .ten{
         font-size: 20px
     }
+    .gach{
+        margin:10px 0 2px 0;
+    }
+    .headerleft{
+        height:20px;
+        font-size:17px;
+    }
 }
 .ph{
     margin:0;
