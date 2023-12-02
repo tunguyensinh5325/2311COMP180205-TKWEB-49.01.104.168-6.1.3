@@ -178,10 +178,10 @@ h1{
         width:75%;
     }
     .mainbox{
-        height:100vh;
+        min-height:100%;
     }
     .ten{
-        font-size: 20px;
+        font-size: 20px
     }
 }
 .ph{
