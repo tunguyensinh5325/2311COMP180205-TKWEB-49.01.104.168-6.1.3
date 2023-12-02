@@ -1,0 +1,178 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    margin:0;
+    background-color:rgb(244,246,255);
+}
+
+.mainbox{
+    min-height: 180vh;
+    width: 60vw;
+    margin:50px 0 50px 0;
+    background-color:white;
+    border-radius: 2vw;
+    display:flex;
+    background-image: url(./pic.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:90% 100%;
+    
+}
+.left{
+    width:40%;
+    height:100%;
+    background-color:rgb(87, 9, 9);
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    display:flex;
+    flex-direction: column;
+    
+}
+.box1{
+    height:23%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    background-image: url(./Picture2.png);
+    background-size:100% 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.avatabox{
+    height:100%;
+    width:65%;
+    background-image: url(./Picture1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display:flex;
+    justify-content:center;
+    align-content:center;  
+}
+.avata{
+    width:85%; height:80%; border-radius: 50%; align-self: flex-end; margin-bottom:5px;
+}
+.infor-left{
+    height:90%;
+    width:100%;
+    background-color: rgb(228, 228, 228);
+    align-self: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius:1.9vw;
+    display:flex;
+    flex-direction: column;
+}
+.text{
+    align-self:center;
+    margin:0;
+}
+.headerleft{
+    width: 75%;
+    height:30px;
+    background-image: url(./Picture3.png);
+    background-size:100% 100%;
+    margin-top:0px;
+    display:flex;
+    justify-content: flex-start;
+    color:rgb(228, 228, 228);
+    font-size: 22px;
+}
+.insta-fb{
+    width:100%;
+    height: 10vh;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.list1{
+    font-size: 19px;
+    padding-left:5px;
+    list-style-type:none;
+    
+}
+.icon{
+    height:18px;
+    width:18px;
+    align-self: center;
+}
+li{
+    display:flex;
+    margin:3px;
+    
+}
+.gach{
+    width:100%;
+    height:2px;
+    align-self:center;
+    background-color:black;
+    margin:37px 0 3px 0;
+
+}
+.skillbar{
+    margin:2px 0 2px 5px;
+    border: solid;
+    height:13px;
+    width: 60%;
+    background-color:white;
+    border-radius: 3px;
+}
+.right{
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.gachphai{
+    width:100%;
+    height:3px;
+    background-color: white;
+}
+.infor-right{
+    display:flex;
+    flex-direction: column;
+    height:80%;
+    
+
+}
+h1{
+    margin-left:5px;
+    font-size:2em;
+}
+.listright{
+    font-size: 19px;
+    padding-left:5px;
+}
+@media only screen and (max-width: 1200px) {
+    .infor-left .headerleft p.text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .infor-left .list1 p.ph {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .infor-right .list1 p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .mainbox{
+    margin:0;
+    width: 100%;
+    }
+    h1{
+        font-size:1.5em;
+    }
+    .avatabox{
+        width:75%;
+    }
+}
+.ph{
+    margin:0;
+}
